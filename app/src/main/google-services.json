@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "137184414980",
+    "firebase_url": "https://vishwasfarm-149806.firebaseio.com",
+    "project_id": "vishwasfarm-149806",
+    "storage_bucket": "vishwasfarm-149806.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137184414980:android:21539f1c23f09044",
+        "android_client_info": {
+          "package_name": "vf.client.com.vishwasfarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137184414980-022l6nk9cluoj44ddb97idf6rr5qq6iq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vf.client.com.vishwasfarm",
+            "certificate_hash": "bdf17101ff6d585a8ce0795e3d14b365befdb9a1"
+          }
+        },
+        {
+          "client_id": "137184414980-7n5etfp28v2uu86vkh3v4ru4fvdvvjd0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl-wWO-6ofY24RPZupgMdPHihblO4qX9w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137184414980-7n5etfp28v2uu86vkh3v4ru4fvdvvjd0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

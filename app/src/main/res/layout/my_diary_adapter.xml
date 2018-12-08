@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
+    android:layout_marginBottom="5dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardUseCompatPadding="true"
+        android:id="@+id/card"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/rl_parent_row">
+
+            <TextView
+                android:id="@+id/diary_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="22dp"
+                android:text="31st"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                 />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/diary_date"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="1dp"
+                    android:background="@drawable/gradient_line"
+                    android:layout_height="match_parent"></View>
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:elevation="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:id="@+id/row1"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:weightSum="100"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/item_name"
+                            android:layout_width="0dp"
+                            android:layout_weight="30"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/relativeLayout"
+                            android:text="Item Name" />
+
+
+                        <TextView
+                            android:id="@+id/item_qty"
+                            android:layout_width="0dp"
+                            android:layout_weight="30"
+
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:layout_alignStart="@+id/relativeLayout"
+                            android:text="Item Qnty" />
+
+                        <TextView
+                            android:id="@+id/item_total"
+                            android:layout_width="0dp"
+                            android:layout_weight="30"
+
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:layout_alignStart="@+id/relativeLayout"
+                            android:text="Item Price" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/row2"
+                        android:layout_width="match_parent"
+                        android:weightSum="100"
+                        android:layout_height="match_parent" >
+                        <TextView
+                            android:id="@+id/item_name1"
+                            android:layout_width="0dp"
+                            android:layout_weight="30"
+
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/relativeLayout"
+                            android:text="Item Name" />
+
+                        <TextView
+                            android:id="@+id/item_qty1"
+                            android:layout_width="0dp"
+                            android:layout_weight="30"
+
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/relativeLayout"
+                            android:text="Item Qnty" />
+
+                        <TextView
+                            android:id="@+id/item_total1"
+                            android:layout_width="0dp"
+                            android:layout_weight="30"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/relativeLayout"
+                            android:text="00" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/row3"
+                        android:layout_width="match_parent"
+                        android:weightSum="100"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:id="@+id/item_name2"
+                            android:layout_width="0dp"
+                            android:layout_weight="30"
+
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/relativeLayout"
+                            android:text="Item Name" />
+
+                        <TextView
+                            android:id="@+id/item_qty2"
+                            android:layout_width="0dp"
+                            android:layout_weight="30"
+
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/relativeLayout"
+                            android:text="Item Qnty" />
+
+                        <TextView
+                            android:id="@+id/item_total2"
+                            android:layout_width="0dp"
+                            android:layout_weight="30"
+                            android:gravity="center"
+
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/relativeLayout"
+                            android:text="00" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/row4"
+                        android:layout_width="match_parent"
+                        android:weightSum="100"
+                        android:layout_height="match_parent" >
+                        <TextView
+                            android:id="@+id/item_name3"
+                            android:layout_width="0dp"
+                            android:layout_weight="30"
+
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/relativeLayout"
+                            android:text="Item Name" />
+
+                        <TextView
+                            android:id="@+id/item_qty3"
+                            android:layout_width="0dp"
+                            android:layout_weight="30"
+
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/relativeLayout"
+                            android:text="Item Qnty" />
+
+                        <TextView
+                            android:id="@+id/item_total3"
+                            android:layout_width="0dp"
+                            android:layout_weight="30"
+                            android:gravity="center"
+
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/relativeLayout"
+                            android:text="00" />
+                    </TableRow>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:gravity="right"
+                        android:weightSum="100"
+                        android:layout_height="match_parent" >
+
+
+
+                        <TextView
+                            android:id="@+id/final_item_qty"
+                            android:layout_width="0dp"
+                            android:layout_weight="60"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/relativeLayout"
+                            android:layout_marginLeft="20dp"
+                            android:textStyle="bold"
+                            android:gravity="right"
+                            android:text="Item Total Price"/>
+
+                        <TextView
+                            android:id="@+id/final_item_total"
+                            android:layout_width="0dp"
+                            android:layout_weight="30"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_alignStart="@+id/relativeLayout"
+                            android:text="00" />
+                    </TableRow>
+                </TableLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/dairy_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/diary_date"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+                android:text="Feb" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

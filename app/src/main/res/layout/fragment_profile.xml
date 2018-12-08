@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding = "15dp"
+    >
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:src="@drawable/driver"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vishwas User"
+        style="@style/TitleStyle"
+        android:gravity="left"
+        android:textColor="@color/white"
+        android:paddingBottom="4dp"
+        android:id="@+id/username"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/profile_image"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number: "
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:id="@+id/lblphoneNo"
+        android:layout_below="@+id/username"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1111"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:id="@+id/txtphoneNo"
+        android:layout_alignBaseline="@+id/lblphoneNo"
+        android:layout_alignBottom="@+id/lblphoneNo"
+        android:layout_toRightOf="@+id/lblphoneNo"
+        android:layout_marginLeft="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email id: "
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:id="@+id/lblEmailId"
+        android:layout_below="@+id/lblphoneNo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abc@email"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:id="@+id/txtEmailId"
+        android:layout_below="@+id/txtphoneNo"
+        android:layout_alignLeft="@id/txtphoneNo"
+        android:layout_toRightOf="@+id/lblphoneNo"
+        android:layout_alignTop="@+id/lblEmailId" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: "
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:id="@+id/lblAddress"
+        android:layout_below="@+id/lblEmailId"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wakad"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:id="@+id/txtAddress"
+        android:layout_alignBaseline="@+id/lblAddress"
+        android:layout_alignBottom="@+id/lblAddress"
+        android:layout_toRightOf="@+id/lblAddress"
+        android:layout_alignLeft="@+id/txtEmailId" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alerts"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:id="@+id/lblAlert1"
+        android:layout_below="@+id/lblAddress"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please subscribe to alerts from Vishwas Farms: "
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="right"
+        android:id="@+id/lblAlert2"
+        android:layout_below="@+id/lblAlert1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS: "
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:id="@+id/lblSMS"
+        android:layout_below="@+id/lblAlert2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+
+    <CheckBox
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:id="@+id/chkSMS"
+        android:layout_alignBaseline="@+id/lblSMS"
+        android:layout_alignTop="@+id/lblSMS"
+        android:layout_toRightOf="@+id/lblAddress"
+        android:layout_toEndOf="@+id/lblAddress" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-MAIL"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:id="@+id/lblEmailChk"
+        android:layout_alignBaseline="@+id/chkSMS"
+        android:layout_alignBottom="@+id/chkSMS"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:id="@+id/chkEmail"
+        android:layout_alignBaseline="@+id/lblEmailChk"
+        android:layout_alignTop="@+id/lblEmailChk"
+        android:layout_toEndOf="@+id/profile_image"
+        android:layout_toRightOf="@+id/profile_image" />
+
+    <Button
+        android:id="@+id/btnSave"
+        style="?android:textAppearanceSmall"
+        android:background="@drawable/button_selector"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Save"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        />
+    <Button
+        android:id="@+id/btnCancel"
+        style="?android:textAppearanceSmall"
+        android:background="@drawable/button_selector"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Cancel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnSave"
+        android:layout_alignBottom="@+id/btnSave"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp" />
+</RelativeLayout>

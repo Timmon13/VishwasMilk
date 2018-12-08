@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:checked="true"
+            android:icon="@drawable/ic_dairy"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/diary"
+            android:checked="false"
+            android:icon="@drawable/date_picker"
+            android:title="My Diary" />
+
+        <item
+            android:id="@+id/announcement"
+            android:checked="false"
+            android:icon="@drawable/ic_notification"
+            android:title="Announcement" />
+
+        <item
+            android:id="@+id/contact"
+            android:checked="false"
+            android:icon="@drawable/ic_mail"
+            android:title="Contact Us" />
+
+
+
+
+
+    </group>
+</menu>

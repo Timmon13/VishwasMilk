@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:padding="20dp"
+    android:background="@color/light_gray"
+    tools:context=".LoginActivity">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="40"
+                android:background="@color/white">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_dairy"
+                    android:id="@+id/dialog_img"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="45"
+                android:layout_marginTop="10dp"
+                android:background="@color/white" android:padding="5dp"
+                android:weightSum="100">
+
+                <TextView  style="?android:textAppearanceMedium"
+                    android:layout_width="match_parent" android:layout_height="0dp"
+                    android:layout_weight="10"
+                    android:text="@string/product_name"
+                    android:id="@+id/product_name"
+
+                    android:gravity="center"
+                    android:textStyle="bold" />
+
+                <TextView  style="?android:textAppearanceSmall"
+                    android:layout_width="match_parent" android:layout_height="0dp"
+                    android:layout_weight="90"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/product_MRP"
+                    android:id="@+id/product_disc"
+                   />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:weightSum="100">
+                <Button
+                    android:id="@+id/dialog_ok"
+                    android:layout_width="220dp"
+                    android:background="@drawable/button_selector"
+                    android:layout_height="wrap_content"
+                    android:text="Subscription"/>
+
+            </LinearLayout>
+</LinearLayout>

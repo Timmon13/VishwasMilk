@@ -1,3 +1,46 @@
 <resources>
-    <string name="app_name">VishwasMilk</string>
+    <string name="app_name">VishwasFarms</string>
+    <string name="signed_in_fmt">Vishwas User</string>
+    <string-array name="navigation_drawer_items_array">
+        <item>Vishwas Home</item>
+        <item>My Diary</item>
+        <item>Announcements</item>
+        <item>Contact Us</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_firstname">First Name</string>
+    <string name="prompt_lastname">Last Name</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_mobile">Mobile number</string>
+    <string name="prompt_address">Delivery Address</string>
+    <string name="prompt_google_Location">Google Location : Please wait, we are searching for it!!</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="plus_sign_out">Switch Google+ account</string>
+    <string name="plus_disconnect">Disconnect from Google+</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="product_desc"></string>
+    <string name="product_MRP">₹</string>
+    <string name="product_name"> Vishwas Milk Product</string>
+    <string name="confirm_subscrition"> Confirm Subscription</string>
+
+    <string name="cal_desc">Vishwas Calender</string>
+
+    <string name="office_address_title"> Vishwas Milk Address</string>
+    <string name="office_address"> MontVert Tropez, G-202,\nSurvey 181, 182, Thergaon Link Road,\nDatta Mandir Road, Wakad,\nPune, Maharashtra - 411027</string>
+    <string name="office_email_title"> Vishwas Milk Email</string>
+    <string name="office_email"> svishwasrao@gmail.com</string>
+    <string name="office_contact_title"> Vishwas Milk Contact Number</string>
+    <string name="office_contact"> +91 9545750033</string>
+
+    <item type="id" name="open_action"/>
+    <item type="id" name="close_action"/>
 </resources>
